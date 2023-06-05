@@ -99,6 +99,15 @@ body {
     margin-left: 20%;
 }
 
+.mens {
+    visibility: hidden; 
+    color: red;
+  }
+
+  .mens.error {
+    visibility: visible;
+  }
+
 
 @media screen and (max-width: 600px) {
     .container {
