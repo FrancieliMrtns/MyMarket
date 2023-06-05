@@ -103,8 +103,7 @@ body {
     visibility: hidden; 
     color: red;
   }
-
-  .mens.error {
+.mens.error {
     visibility: visible;
   }
 
