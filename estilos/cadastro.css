@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    
+}
+
+body {
+    background-color: #484D50;
+}
+
+
+.container {
+    display: flex;
+    background-color: #A3FD9E;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 5rem;
+    padding: 1rem;
+    border-radius: 10px;
+    max-width: 1100px;
+    width: 90%;
+    height: 900px;
+  }
+  
+  .container > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .container > form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.form {
+    padding: 20px;
+    width: 90%; 
+    display: flex; 
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.form label#label-nome {
+   margin-right: 75%;
+}
+.form label#label-data {
+    margin-right: 66%;
+ }
+.form label#label-email {
+    margin-right: 74%;
+ }
+ .form label#label-cpf {
+    margin-right: 75%;
+ }
+
+ .form label#label-senha {
+    margin-right: 75%;
+ }
+
+.form input {
+    display: flex;
+    border: 2px solid #5FF757;
+    font-size: 1.4rem;
+    width: 100%;
+    height: 10px;
+    max-width: 50rem;
+    padding: 1rem;
+    margin: 1rem;
+    box-sizing: border-box;
+}
+
+.form button {
+    background-color: grey;
+    border: 1px solid grey;
+    color: #fff;
+    font-size: 1.4rem;
+    width: 20%;
+    padding: 1rem; 
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    .container {
+        margin-top: 2rem;
+    }
+
+    .form input {
+        max-width: 90%;
+    }
+
+    .form button {
+        width: 100%;
+    }
+}
